@@ -1,0 +1,11 @@
+1. ICar 인터페이스를 제작
+void startEngine();
+void speedUp();
+void speedDown();
+void hitBreak();
+
+HyundaiCar
+KiaCar
+ToyotaCar
+클래스 제작
+

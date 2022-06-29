@@ -1,0 +1,23 @@
+변수 이름은 CamelCase 명명규칙을 따름 ex) int phoneNumber
+변수의 이름은 대,소문자 구분
+변수의 값을 지정해주는 것을 변수의 초기화(initialize)라고 함
+초기화 되지 않은 변수를 사용할 시 에러 발생
+
+6. 정수형 타입
+int형 : 음수, 양수 포함해서 약 4억개의 숫자 표현 가능
+
+7. String타입
+문자열에 따옴표를 입력하고싶을땐 \를 써야된다. 끝에 따옴표 하나 더 붙여야 되던데 왜그런지 확인
+예시)String str2="hello \"java\"";
+
+@@문자열의 강제 타입 변환
+String str2="100";
+//자바에서 제공하는 Integer 클래스의 int형 타입변환 메소드를 이용한 강제 타입 변환
+int num6=Integer.parseInt(str2);
+System.out.println(num6);
+System.out.println("-----------------------------------");
+
+
+
+
+

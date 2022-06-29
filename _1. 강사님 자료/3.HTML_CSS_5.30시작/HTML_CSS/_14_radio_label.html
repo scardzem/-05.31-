@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>라디오버튼과 label 태그</title>
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <ul>
+            <li>
+                <!--radio는 동일한 name으로 지정시 하나의 입력 값만 선택-->
+                <label>
+                    <input type="radio" name="subject" value="c">C언어
+                </label>
+            </li>
+            <li>
+                <input type="radio" name="subject" value="java">Java
+            </li>
+            <li>
+                <input type="radio" name="subject" value="python">Python
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
